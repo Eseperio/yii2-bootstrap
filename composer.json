@@ -1,5 +1,5 @@
 {
-    "name": "yiisoft/yii2-bootstrap",
+    "name": "esperio/yii2-bootstrap",
     "description": "Modified version of the Twitter Bootstrap extension for the Yii framework to be compatible with bootstrap5",
     "keywords": ["yii2", "bootstrap"],
     "type": "yii2-extension",
