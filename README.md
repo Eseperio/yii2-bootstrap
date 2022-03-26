@@ -1,3 +1,7 @@
+    Important: This is a modified package to be able to instal both bootstrap3 and bootstrap5.
+Composer does not allow installing multiple versions of same package and both depends originally from bower. Now 
+this package depends on NPM.
+----
 <p align="center">
     <a href="http://getbootstrap.com/" target="_blank" rel="external">
         <img src="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg" height="80px">
