@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\bootstrap;
+namespace eseperio\bootstrap;
 
 use yii\web\AssetBundle;
 
@@ -23,6 +23,6 @@ class BootstrapPluginAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'eseperio\bootstrap\BootstrapAsset',
     ];
 }

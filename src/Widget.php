@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\bootstrap;
+namespace eseperio\bootstrap;
 
 /**
- * \yii\bootstrap\Widget is the base class for all bootstrap widgets.
+ * \eseperio\bootstrap\Widget is the base class for all bootstrap widgets.
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @author Qiang Xue <qiang.xue@gmail.com>

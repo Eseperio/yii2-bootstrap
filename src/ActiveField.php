@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\bootstrap;
+namespace eseperio\bootstrap;
 
 use yii\helpers\ArrayHelper;
 
@@ -48,7 +48,7 @@ use yii\helpers\ArrayHelper;
  * Example:
  *
  * ```php
- * use yii\bootstrap\ActiveForm;
+ * use eseperio\bootstrap\ActiveForm;
  *
  * $form = ActiveForm::begin(['layout' => 'horizontal']);
  *
@@ -82,7 +82,7 @@ use yii\helpers\ArrayHelper;
  * ActiveForm::end();
  * ```
  *
- * @see \yii\bootstrap\ActiveForm
+ * @see \eseperio\bootstrap\ActiveForm
  * @see http://getbootstrap.com/css/#forms
  *
  * @author Michael Härtl <haertl.mike@gmail.com>

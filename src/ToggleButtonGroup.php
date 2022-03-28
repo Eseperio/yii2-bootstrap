@@ -5,18 +5,18 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\bootstrap;
+namespace eseperio\bootstrap;
 
 use yii\base\InvalidConfigException;
 
 /**
  * ToggleButtonGroup allows rendering form inputs Checkbox/Radio toggle button groups.
  *
- * You can use this widget in an [[yii\bootstrap\ActiveForm|ActiveForm]] using the [[yii\widgets\ActiveField::widget()|widget()]]
+ * You can use this widget in an [[eseperio\bootstrap\ActiveForm|ActiveForm]] using the [[yii\widgets\ActiveField::widget()|widget()]]
  * method, for example like this:
  *
  * ```php
- * <?= $form->field($model, 'item_id')->widget(\yii\bootstrap\ToggleButtonGroup::classname(), [
+ * <?= $form->field($model, 'item_id')->widget(\eseperio\bootstrap\ToggleButtonGroup::classname(), [
  *     // configure additional widget properties here
  * ]) ?>
  * ```
@@ -79,9 +79,9 @@ class ToggleButtonGroup extends InputWidget
                 }
             case 'radio':
                 if ($this->hasModel()) {
-                    return Html::activeRadioList($this->model, $this->attribute, $this->items, $this->options); 
+                    return Html::activeRadioList($this->model, $this->attribute, $this->items, $this->options);
                 } else {
-                    return Html::radioList($this->name, $this->value, $this->items, $this->options); 
+                    return Html::radioList($this->name, $this->value, $this->items, $this->options);
                 }
             default:
                 throw new InvalidConfigException("Unsupported type '{$this->type}'");

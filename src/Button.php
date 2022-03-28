@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\bootstrap;
+namespace eseperio\bootstrap;
 
 /**
  * Button renders a bootstrap button.
