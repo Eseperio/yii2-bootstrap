@@ -17,7 +17,7 @@ use yii\web\AssetBundle;
  */
 class BootstrapPluginAsset extends AssetBundle
 {
-    public $sourcePath = '@npm-asset/bootstrap/dist';
+    public $sourcePath = '@npm/bootstrap/dist';
     public $js = [
         'js/bootstrap.js',
     ];
